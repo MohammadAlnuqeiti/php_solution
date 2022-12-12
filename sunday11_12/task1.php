@@ -1,7 +1,9 @@
 <?php  
 
 echo PHPVERSION();
-
+echo "<br>";
+echo php_uname();
+echo "<br>";
 ?>
 <?php  
 echo "<br>";
@@ -9,8 +11,8 @@ echo "<br>";
 
 echo "======================================";
 echo "<br>";
-echo nl2br("Tomorrow I 'll learn PHP global variables.
-This is a bad command: del c:.")
+echo nl2br('Tomorrow I \'ll learn PHP global variables.
+This is a bad command: del c:.')
 
 ?>
 <?php  
