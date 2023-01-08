@@ -69,6 +69,15 @@ echo "y"."=".$y ."<br>";
 }
 swap(12,10);
 echo "<br>";
+function swapp($x,$y){
+    $x=$x+$y;
+    $y=$x-$y;
+    $x=$x-$y;
+echo "x"."=".$x . " , ";
+echo "y"."=".$y ."<br>";
+}
+swapp(12,10);
+echo "<br>";
 
 //-----------   5  ---------------//
 

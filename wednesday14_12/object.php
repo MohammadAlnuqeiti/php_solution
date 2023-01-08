@@ -12,7 +12,7 @@ $one= new onee();
 $one->printt("MyClass class has initialized!");
 
 
-// ------------------------------------- //
+// ----------------- 2 -------------------- //
 echo "<hr>";
 class two {
     public $str1;
@@ -26,7 +26,7 @@ $two->str1="Scott";
 $two->printt();
 
 
-// ------------------------------------- //
+// ----------------- 3 ------------------- //
 echo "<hr>";
 
 class three {
@@ -63,7 +63,7 @@ class sortt {
 
   $sort2;  
     function __construct(array $sort2){
-    //  sort ($aray)
+
         $this -> sort2 = $sort2;
       
     }
@@ -76,7 +76,7 @@ class sortt {
     }
 } 
 
-$array1 = new sortt();
+$array1 = new sortt(array(11, -2, 4, 35, 0, 8, -9));
 
-$array1 -> sort(array(11, -2, 4, 35, 0, 8, -9));
+// $array1 -> sort2=;
 $array1 -> printt();
